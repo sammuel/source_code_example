@@ -1,0 +1,78 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stFrLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.photoapp.view.fragments.SettingsFragment">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/lvHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_common_header_height"
+                    android:background="@color/background_blue_gray"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/lvHeaderName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_common_header_height"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/text_filename_header_upload_list"
+                        android:textColor="@color/text_white"
+                        android:textSize="@dimen/text_settings_size"/>
+
+                    <ImageView
+                        android:id="@+id/lvHeaderStatus"
+                        android:layout_width="@dimen/card_files_status_width"
+                        android:layout_height="@dimen/card_common_header_height"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/card_common_item_padding"
+                        android:src="@drawable/ic_info_outline_white_24dp"
+                         />
+
+                </LinearLayout>
+                <ListView
+                    android:id="@+id/list_upload_files"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_fragment_upload_stat"
+                    android:layout_centerHorizontal="true"
+                    android:padding="0dp"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/list_upload_files_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_text_list_empty"
+                    android:background="@color/background_white"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_common_header_height"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/text_empty_upload_list"
+                        android:textColor="@color/text_dark"
+                        android:textSize="@dimen/text_settings_size" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+</FrameLayout>

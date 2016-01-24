@@ -1,0 +1,64 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_linear"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.photoapp.view.fragments.SignUpFragment">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@id/layout_linear"
+        android:layout_centerHorizontal="true"
+
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_camera" />
+
+
+    <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- :nextFocusUp and :nextFocusLeft have been set to the id of this component
+         to prevent the dummy from receiving focus again -->
+    <EditText
+        android:id="@+id/edit_text_username"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="@dimen/edit_text_username_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_text_username_margin_top"
+        android:backgroundTint="@color/background_blue_gray"
+        android:gravity="center_horizontal"
+        android:hint="@string/edit_text_username_hint_sign_up"
+        android:imeOptions="actionDone"
+        android:nextFocusLeft="@id/edit_text_username"
+        android:nextFocusUp="@id/edit_text_username"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size" />
+
+
+    <Button
+        android:id="@+id/button_sign_up"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_sign_up_margin"
+        android:layout_marginBottom="@dimen/button_sign_up_margin"
+        android:background="@color/background_blue_gray"
+        android:textColor="@color/text_white"
+        android:text="@string/button_sign_up"
+        android:textSize="@dimen/text_size" />
+</LinearLayout>

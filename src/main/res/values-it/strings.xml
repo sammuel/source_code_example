@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="app_name">Photo Monitor</string>
+    <!-- Tabs -->
+    <string name="tab_camera">Fotocamera</string>
+    <string name="tab_settings">Impostazioni</string>
+    <!-- Sign up -->
+    <string name="edit_text_username_hint_sign_up">Inserisci il nome utente</string>
+    <string name="edit_text_username_error_sign_up">Il nome utente è obbligatorio</string>
+    <string name="button_sign_up">Inizia</string>
+    <!--Settings-->
+    <string name="switch_upload_wifi_only_settings">Carica solo via wifi</string>
+    <string name="text_table_today_header_stat">Oggi</string>
+    <string name="text_table_all_time_header_stat">Dall\'inizio</string>
+    <string name="text_table_uploaded_header_stat">Caricate</string>
+    <string name="text_table_taken_header_stat">Scattate</string>
+    <string name="text_filename_header_upload_list">Nome file</string>
+    <string name="text_status_header_upload_list">Stato</string>
+    <string name="text_empty_upload_list">Non sono state ancora scattate foto</string>
+<!-- Dialogs -->
+    <string name="dialog_title_loading_progress">Caricamento</string>
+    <string name="dialog_text_please_wait_progress">Attendi per favore</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_title_error">Errore</string>
+    <string name="dialog_title_warning">Attenzione</string>
+    <string name="dialog_text_not_enough_memory">Impossibile salvare file, memoria telefono esaurita.</string>
+    <string name="dialog_text_address_decoded">Posizione trovata = %s.</string>
+    <string name="dialog_text_location_coordinates_not_obtained">Posiziona non trovata. Impossibile salvare foto.</string>
+    <string name="dialog_text_location_service_not_available">Posizione disabilitata sul telefono. Attivare posizione dalle impostazioni del telefono. </string>
+    <!--<string name="dialog_text_address_decoder_not_available">Coordinates obtained without internet connection. File will be saved, but address will be added later.</string>-->
+    <string name="dialog_text_camera_not_available">Fotocamera non disponibile. Attendere. </string>
+    <string name="dialog_text_no_sd_card">Memoria non disponibile. Impossibile salvare foto. </string>
+    <string name="dialog_text_file_deleted">Il file %s è stato cancellato dal telefono. </string>
+    <string name="dialog_text_internet_disconnected">Connessione internet assente. Le foto saranno caricate appena possibile.</string>
+    <string name="dialog_text_upload_error">Errore di caricamento file %s. La foto sarà caricata appena possibile.</string>
+    <string name="toast_file_saved">File %s salvato.</string>
+    <string name="dialog_title_last_taken_image">Ultima immagine scattata</string>
+</resources>

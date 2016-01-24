@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="app_name">Photo Monitor</string>
+    <!-- Tabs -->
+    <string name="tab_camera">Camera</string>
+    <string name="tab_settings">Settings</string>
+    <!-- Sign up -->
+    <string name="edit_text_username_hint_sign_up">Please enter username...</string>
+    <string name="edit_text_username_error_sign_up">Username can\'t be empty</string>
+    <string name="button_sign_up">Sign up</string>
+    <!--Settings-->
+    <string name="switch_upload_wifi_only_settings">Upload only via wi-fi</string>
+    <string name="text_table_today_header_stat">Today</string>
+    <string name="text_table_all_time_header_stat">All time</string>
+    <string name="text_table_uploaded_header_stat">Uploaded</string>
+    <string name="text_table_taken_header_stat">Taken</string>
+    <string name="text_filename_header_upload_list">Filename</string>
+    <string name="text_status_header_upload_list">Status</string>
+    <string name="text_empty_upload_list">You didn\'t make any photo yet</string>
+<!-- Dialogs -->
+    <string name="dialog_title_loading_progress">Loading</string>
+    <string name="dialog_text_please_wait_progress">Please wait</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_text_not_enough_memory">Unable to save file. You don\'t have enough memory on device.</string>
+    <string name="dialog_text_address_decoded">Address found = %s.</string>
+    <string name="dialog_text_location_coordinates_not_obtained">Coordinates is not obtained. File not saved.</string>
+    <string name="dialog_text_location_service_not_available">Location disabled on device. Please, enable it in phone settings.</string>
+    <!--<string name="dialog_text_address_decoder_not_available">Coordinates obtained without internet connection. File will be saved, but address will be added later.</string>-->
+    <string name="dialog_text_camera_not_available">Camera not available. Please wait.</string>
+    <string name="dialog_text_no_sd_card">SD card not available. File not saved.</string>
+    <string name="dialog_text_file_deleted">File %s was deleted from device before uploading.</string>
+    <string name="dialog_text_internet_disconnected">Internet was disconnected. Files will be upload later.</string>
+    <string name="dialog_text_upload_error">Uploading error for %s. Files will be uploaded later.</string>
+    <string name="toast_file_saved">File %s saved.</string>
+    <string name="dialog_title_last_taken_image">Last taken image</string>
+</resources>

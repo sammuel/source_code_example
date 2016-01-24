@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:stretchColumns="0,1,2">
+
+    <TableRow
+        style="@style/UploadStatTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_blue_gray">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_header_height"
+
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/headerToday"
+            style="@style/UploadStatTableHeaderText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_header_height"
+            android:layout_weight="1"
+            android:text="@string/text_table_today_header_stat" />
+
+
+        <TextView
+            android:id="@+id/headerAllTime"
+            style="@style/UploadStatTableHeaderText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_header_height"
+            android:layout_weight="1"
+
+
+            android:text="@string/text_table_all_time_header_stat" />
+
+    </TableRow>
+
+    <TableRow
+        style="@style/UploadStatTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/headerTaken"
+            style="@style/UploadStatTableItemText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+            android:text="@string/text_table_taken_header_stat" />
+
+
+
+        <TextView
+            android:id="@+id/text_taken_today"
+            style="@style/UploadStatTableItemText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+            android:text="-1" />
+
+        <TextView
+            android:id="@+id/text_taken_all_time"
+            style="@style/UploadStatTableItemText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+            android:text="-1" />
+
+
+    </TableRow>
+
+    <TableRow
+        style="@style/UploadStatTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/headerUploaded"
+            style="@style/UploadStatTableItemText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+            android:text="@string/text_table_uploaded_header_stat" />
+
+
+        <TextView
+            android:id="@+id/text_uploaded_today"
+            style="@style/UploadStatTableItemText"
+            android:textSize="@dimen/text_settings_size"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+            android:text="-1" />
+
+
+        <TextView
+            android:id="@+id/text_uploaded_all_time"
+            style="@style/UploadStatTableItemText"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_common_item_height"
+            android:layout_weight="1"
+
+
+            android:text="-1" />
+    </TableRow>
+
+</TableLayout>
